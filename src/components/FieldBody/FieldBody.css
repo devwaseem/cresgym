@@ -1,0 +1,83 @@
+.FieldBody{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px;
+    
+}
+
+.fieldHolder {
+    display: flex;
+    flex-direction: row; 
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.wafield{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bmiValue{
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+
+.bmiValue > p {
+    color: white
+}
+
+.bmiValue > h1 {
+    color: #D84E5B;
+    text-align: center;
+    font-family: 'AvenirBlack';
+}
+
+.registerButton {
+    background: #D84E5B;
+    width: 140px;
+    margin: 0 auto;
+    height: 50px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.registerButton > h4 {
+    color: white;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.standaloneField{
+    margin-top: 40px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.spacing {
+    margin: 50px;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .FieldBody{
+        margin: 0px;
+    }
+    
+    .fieldHolder{
+        flex-direction: column;   
+        margin: 0 auto;
+        margin: 0px 50px;
+    }
+    
+    .spacing {
+        margin: 0px;
+    }
+
+    .standaloneField{
+        margin-top: 10px;
+        margin-left:50px;
+        margin-right:60px;
+    }
+}

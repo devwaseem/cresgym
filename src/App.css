@@ -1,0 +1,68 @@
+
+.nav {
+  display: flex;
+  background: white;
+  max-height: 140px;
+  width: 100%;
+}
+
+.nav img {
+  max-width: 200px;
+  height: 60px;
+  margin: 30px;
+}
+.MainBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.Title{
+  display: flex;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-family: 'AvenirLight', Courier, monospace;
+}
+
+.Title img {
+  width: 40px;
+  height: 60px;
+  margin-right: 10px;
+  margin-top: 8px;
+  
+}
+
+.titleText {
+  color: white;
+}
+
+.titleText span {
+  color: #D84E5B;
+}
+
+.fieldBody{
+width: 100%;
+height: 100%;
+}
+
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .nav img {
+    max-width: 200px;
+    
+  }
+  .nav {
+    justify-content: center;
+    max-height: 110px;
+  }
+
+  .Title {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .Title img {
+    margin: 0 auto;
+  }
+
+}
